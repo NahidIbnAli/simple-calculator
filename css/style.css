@@ -1,0 +1,48 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+}
+.container {
+  background-color: #9fcbdd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc {
+  width: 350px;
+}
+input {
+  width: 100%;
+  padding: 20px 25px;
+  border: 0;
+  background-color: #252525;
+  color: white;
+  font-size: 2.2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: right;
+}
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.row-span-4 {
+  grid-row: 4 span;
+  background-color: #f87f52;
+  border-bottom-right-radius: 10px;
+}
+button {
+  padding: 10px 0;
+  border: 1px solid rgb(190, 190, 190);
+  font-size: 1.5rem;
+}
+.corner-radius {
+  border-bottom-left-radius: 10px;
+}
